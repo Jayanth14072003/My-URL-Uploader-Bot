@@ -13,10 +13,10 @@ class Config(object):
     # get a token from https://chatbase.com
     CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "")
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5872747581:AAH7_XPCOCEVfbgUhepjJWlcOmj8wjDTjBk")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", ))
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = int(os.environ.get("API_ID", "3393749"))
+    API_HASH = os.environ.get("API_HASH", "a15a5954a1db54952eebd08ea6c68b71")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
 
@@ -44,19 +44,19 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 300
     # watermark file
     DEF_WATER_MARK_FILE = ""
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Jayanna:Jayanna2023@yash.tm1c2bd.mongodb.net/?retryWrites=true&w=majority")
     SESSION_NAME = os.environ.get("SESSION_NAME", "Rename-Bot-0")
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001636376488"))
     LOGGER = logging
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1061576483"))
     # Update channel for Force Subscribe
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     TG_MIN_FILE_SIZE = 2097152000
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "pro_url_uploader_658_bot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "jn_url_v3_bot")
     PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
     PRO_USERS.append(OWNER_ID)
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", "False"))
     BYPASS = os.environ.get("BYPASS", "")
     ADL_BOT_RQ = {}
-    AUTH_USERS = list(set(int(x) for x in os.environ.get("AUTH_USERS", "0").split()))
+    AUTH_USERS = list(set(int(x) for x in os.environ.get("AUTH_USERS", "1061576483").split()))
     AUTH_USERS.append(OWNER_ID)
